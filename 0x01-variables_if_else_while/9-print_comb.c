@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
  * main - prints all combinations of single digits
@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-        int n;
+	 int n;
 
-        for (n = 0; n < 10; n++)
-        {
-                putchar(n + '0');
+	for (n = 0; n < 10; n++)
+	{
+		putchar(n + '0');
 
-                if (n != 9)
-                {
-                        putchar(',');
-                        putchar(' ');
-                }
-        }
-        putchar('\n');
-        return (0);
+		if (n != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
 }
